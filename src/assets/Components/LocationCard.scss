@@ -1,0 +1,35 @@
+.location {
+  padding: 2.5em;
+
+  &__content {
+		 background-color: rgba(0, 0, 0, 0.459);
+  	 color: white;
+     border: 1px solid red;
+     max-width: 400px;
+     width: 100%;
+     padding: 2em 1.5em;
+     border-radius: 10px;
+		 box-shadow: 5px 5px 0px 0px #000;
+ }
+
+ &__name {
+	text-align: center;
+   color: var(--color-primary);
+   font-size: 1.15rem;
+   margin-bottom: 1em;
+ }
+
+ &__details {
+   list-style: none;
+   padding: 0;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+
+     &-span {
+       display: block;
+       font-size: 14px;
+       color: #ccc;
+   }
+ }
+}

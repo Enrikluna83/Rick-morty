@@ -1,0 +1,29 @@
+.search {
+    padding: 2.95em 0 2em;
+    text-align: center;
+    display: flex;
+
+    &__input {
+        background-color: antiquewhite;
+        padding: .35em 1em;
+        border: none;
+        outline: none;
+        border-radius: 3.5px 0 0 3.5px;
+    }
+
+    &__btn {
+
+        background-color: var(--color-primary);
+        color: white;
+        padding: .35em 1em;
+        border: none;
+        outline: none;
+        border-radius: 0 3.5px 3.5px 0;
+    }
+
+    &__error {
+        margin-top: .75em;
+        color: red($color: #e44a4a);
+        font-size: small;
+    }
+}
