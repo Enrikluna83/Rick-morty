@@ -1,0 +1,52 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --body-color: #1362706b;
+  --primary-color: yellowgreen;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: rgb(11, 156, 101);
+  background: linear-gradient(90deg, rgb(38, 44, 43) 0%, rgba(148,187,233,1) 100%);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Coponents*/
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero {
+  width: 100%;
+  height: 20dvh;
+  background-image: url('./imges/randmbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: yellowgreen;
+  display: grid;
+  place-content: center;
+  font-size: 1.3rem;
+  effect: drop-shadow(0 0 10px yellowgreen);
+  text-align: center;
+}
+
+/* Utilities */

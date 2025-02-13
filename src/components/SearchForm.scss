@@ -1,0 +1,28 @@
+.search {
+  padding: 3em 0 2.5em;
+  display: flex;
+
+  &__input {
+    background-color: #fff;
+    padding: .4em 1em;
+    border: none;
+    outline: none;
+    border-radius: 4px 0 0 4px;
+  }
+
+  &__btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: .4em 1em;
+    border: none;
+    outline: none;
+    border-radius: 0 4px 4px 0;
+  }
+
+  &__error {
+    text-align: center;
+    margin-top: .75em;
+    color: rgb(255, 105, 105);
+    font-size: small;
+  }
+}
